@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Emberitas Practice Application">
+    <meta name="author" content="Shannon Byrne">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emberitas Practice</title>
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <div class="container">
+      <h1> New Palette </h1>
+
+      <h2> Palette Name </h2>
+      <input type="text" class="full-width"></input>
+
+      <h2> Palette Preview </h2>
+      <div class="btn-group">
+          <button class="btn palette-btn" style="background-color: rgb(217,33,32)"> rgb(217,33,32)</button>
+          <button class="btn palette-btn" style="background-color: rgb(231,116,47)"> rgb(231,116,47)</button>
+          <button class="btn palette-btn" style="background-color: rgb(223,165,58)"> rgb(223,165,58) </button>
+          <button class="btn palette-btn" style="background-color: rgb(177,190,78)"> rgb(177,190,78) </button>
+          <button class="btn palette-btn" style="background-color: rgb(109,179,136)"> rgb(109,179,136) </button>
+      </div>
+
+      <h2> Edit Color </h2>
+      <div class="btn-group">
+        <button class="btn palette-btn full-width"></button>
+      </div>
+      
+      <div class="color-picker">
+        <div class="color-letter">R</div>
+        <input type="text" class="color-number"></input>
+        <input type="range" class="color-slider" maxlength="3"></input>
+      </div>
+
+      <div class="color-picker">
+        <div class="color-letter">G</div>
+        <input type="text" class="color-number"></input>
+        <input type="range" class="color-slider" maxlength="3"></input>
+      </div>
+
+      <div class="color-picker">
+        <div class="color-letter">B</div>
+        <input type="text" class="color-number"></input>
+        <input type="range" class="color-slider" maxlength="3"></input>
+      </div>
+
+      <div class="text-center">
+        <a class="btn btn-info link-to-new" href="new-palette.html">Save Palette</a>
+      </div>
+
+    </div>
+  </body>
+</html>

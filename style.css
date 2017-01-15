@@ -31,3 +31,34 @@ h1 {
   margin: 75px;
   font-size: 25px;
 }
+
+input[type="text"]{
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.color-picker {
+  margin-top: 50px;
+}
+
+.color-letter {
+  display: inline-block;
+  font-size: 25px;
+  color: white;
+  width: 5%
+}
+
+.color-number {
+  width: 10%;
+}
+
+input[type="range"]{
+  width: 80%;
+  display: inline-block;
+  margin-left: 20px;
+}
